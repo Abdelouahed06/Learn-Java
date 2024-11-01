@@ -103,7 +103,7 @@ public class Main {
                     for(int j = 0; j < days.length; j++) {
                         System.out.print(days[j] + " ");
                     }
-                    System.out.println(); // Adds a new line after each week
+                    System.out.println();
                 }
 
 
