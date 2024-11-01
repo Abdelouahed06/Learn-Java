@@ -1,6 +1,6 @@
-////import java.util.Scanner;
-//public class Main {
-//    public static void main(String[] args) {
+//import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
 //        double[] Notes = {10, 14.5, 19.25, 9};
 //        double Moy;
 //        int length = Notes.length;
@@ -187,5 +187,5 @@
 ////        System.out.println("The sum of " + num1 + " and " + num2 + " is: " + sum);
 ////
 ////        scanner.close();
-//    }
-//}
+    }
+}
