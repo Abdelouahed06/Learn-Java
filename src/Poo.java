@@ -12,8 +12,8 @@ public class Poo {
 //        }
 //    }
 
-    static int myMethod(int x){
-        return 5 + x ;
+    static int myMethod(int x, int y) {
+        return y + x ;
     }
     public static void main(String[] args) {
 //        myMethod("abde",20);
@@ -21,8 +21,10 @@ public class Poo {
 //        myMethod("hhafid",30);
 //        checkAge(14);
 //        checkAge(25);
-        System.out.println(myMethod(5));
-        System.out.println(myMethod(3));
+        int y = myMethod(5, 9);
+        int z = myMethod(4, 6);
+
+        System.out.println(z + " " + y);
 
     }
 }
