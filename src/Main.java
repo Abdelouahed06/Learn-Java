@@ -1,6 +1,17 @@
 //import java.util.Scanner;
-//public class Main {
-//    public static void main(String[] args) {
+public class Main {
+    public static void main(String[] args) {
+        int[] numbers = {0,1,2,3,4,5};
+        String[] cars = {"Volvo", "BMW", "Ford", "Mazda"};
+        System.out.println(numbers[1]);
+        numbers[1] = 9;
+        System.out.println(numbers[1]);
+        System.out.println(numbers.length);
+        int num = 1;
+        for(String car : cars){
+            System.out.println("car number " +num+ " is : " + car);
+            num = num + 1;
+        }
 //         video_01_02
 //          int a = 4;
 //          int b = 5;
@@ -164,5 +175,5 @@
 ////        System.out.println("The sum of " + num1 + " and " + num2 + " is: " + sum);
 ////
 ////        scanner.close();
-//    }
-//}
+    }
+}
