@@ -1,17 +1,29 @@
 //import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
-        int[] numbers = {0,1,2,3,4,5};
-        String[] cars = {"Volvo", "BMW", "Ford", "Mazda"};
-        System.out.println(numbers[1]);
-        numbers[1] = 9;
-        System.out.println(numbers[1]);
-        System.out.println(numbers.length);
-        int num = 1;
-        for(String car : cars){
-            System.out.println("car number " +num+ " is : " + car);
-            num = num + 1;
+        double[] Notes = {10, 14.5, 19.25, 8};
+        double Moy;
+        int length = Notes.length;
+        double sum = 0;
+        for(double note : Notes){
+            sum = sum + note;
         }
+        Moy = sum / length;
+        System.out.println(length);
+        System.out.println(sum);
+        System.out.println(Moy);
+
+//        int[] numbers = {0,1,2,3,4,5};
+//        String[] cars = {"Volvo", "BMW", "Ford", "Mazda"};
+//        System.out.println(numbers[1]);
+//        numbers[1] = 9;
+//        System.out.println(numbers[1]);
+//        System.out.println(numbers.length);
+//        int num = 1;
+//        for(String car : cars){
+//            System.out.println("car number " +num+ " is : " + car);
+//            num = num + 1;
+//        }
 //         video_01_02
 //          int a = 4;
 //          int b = 5;
