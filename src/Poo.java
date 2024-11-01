@@ -12,7 +12,7 @@ public class Poo {
 //        }
 //    }
 
-    static int myfunc(int x){
+    static int myMethod(int x){
         return 5 + x ;
     }
     public static void main(String[] args) {
@@ -21,6 +21,6 @@ public class Poo {
 //        myMethod("hhafid",30);
 //        checkAge(14);
 //        checkAge(25);
-        System.out.println(myfunc(5));
+        System.out.println(myMethod(5));
     }
 }
