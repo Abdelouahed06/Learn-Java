@@ -90,13 +90,23 @@ public class Main {
 //        System.out.println("Day of the week: " + dayName);
 
 //      video_07
-        for(int i = 0; i < 10 ; i++){
-            System.out.println(i);
-        }
+//        for(int i = 0; i < 10 ; i++){
+//            System.out.println(i);
+//        }
+//
+//        for(int j = 0; j <= 10; j=j+2){
+//            System.out.println(j);
+//        }
 
-        for(int j = 0; j <= 10; j=j+2){
-            System.out.println(j);
-        }
+                String[] days = {"ltnin", "tlat", "larb3", "lkhmis", "ljam3", "sbt"};
+                for(int i = 0; i < 2; i++) {
+                    for(int j = 0; j < days.length; j++) {
+                        System.out.print(days[j] + " ");
+                    }
+                    System.out.println(); // Adds a new line after each week
+                }
+
+
 
 
 
