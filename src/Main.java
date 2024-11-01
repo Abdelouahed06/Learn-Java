@@ -98,13 +98,24 @@ public class Main {
 //            System.out.println(j);
 //        }
 
-                String[] days = {"ltnin", "tlat", "larb3", "lkhmis", "ljam3", "sbt"};
-                for(int i = 0; i < 2; i++) {
-                    for(int j = 0; j < days.length; j++) {
-                        System.out.print(days[j] + " ");
-                    }
-                    System.out.println();
-                }
+//                String[] days = {"ltnin", "tlat", "larb3", "lkhmis", "ljam3", "sbt"};
+//                for(int i = 0; i < 2; i++) {
+//                    for(int j = 0; j < days.length; j++) {
+//                        System.out.print(days[j] + " ");
+//                    }
+//                    System.out.println();
+//                }
+        int i=0;
+//        while (i <= 10){
+//            System.out.println("value of i == " + i);
+//            ++i;
+//        }
+
+        do {
+            System.out.println(i);
+            i++;
+        }
+        while (i <= 1 );
 
 
 
