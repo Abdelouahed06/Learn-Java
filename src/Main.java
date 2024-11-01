@@ -1,4 +1,4 @@
-//import java.util.Scanner;
+import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 //         video_01_02
@@ -61,6 +61,28 @@ public class Main {
 //        Switch Statement
 //        int day = 13;
 //        String dayName;
+         int a = 4;
+         int b = 2;
+         Scanner input = new Scanner(System.in);
+         System.out.println("Enter Operator type : ");
+        char operator = input.next().charAt(0);
+        switch (operator) {
+            case '+':
+                System.out.println(a + b);
+                break;
+            case '-':
+                System.out.println(a - b);
+                break;
+            case '*':
+                System.out.println(a * b);
+                break;
+            case '/':
+                System.out.println(a / b);
+                break;
+           default:
+                System.out.println("Invalid Operator");
+        }
+        input.close();
 //
 //        switch (day) {
 //            case 1:
@@ -105,17 +127,17 @@ public class Main {
 //                    }
 //                    System.out.println();
 //                }
-        int i=0;
-        while (i <= 10){
-            System.out.println("value of i == " + i);
-            ++i;
-        }
-
-        do {
-            System.out.println(i);
-            i++;
-        }
-        while (i <= 1 );
+//        int i=0;
+//        while (i <= 10){
+//            System.out.println("value of i == " + i);
+//            ++i;
+//        }
+//
+//        do {
+//            System.out.println(i);
+//            i++;
+//        }
+//        while (i <= 1 );
 
 
 
