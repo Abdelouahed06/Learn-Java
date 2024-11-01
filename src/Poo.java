@@ -22,5 +22,7 @@ public class Poo {
 //        checkAge(14);
 //        checkAge(25);
         System.out.println(myMethod(5));
+        System.out.println(myMethod(3));
+
     }
 }
