@@ -1,8 +1,10 @@
 public class Poo {
-    static void myMethod() {
-        System.out.println("Hello World");
+    static void myMethod(String fname) {
+        System.out.println("Welcome " + fname);
     }
     public static void main(String[] args) {
-        myMethod();
+        myMethod("abde");
+        myMethod("ali");
+        myMethod("hhafid");
     }
 }
