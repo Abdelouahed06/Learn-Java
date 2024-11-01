@@ -106,10 +106,10 @@ public class Main {
 //                    System.out.println();
 //                }
         int i=0;
-//        while (i <= 10){
-//            System.out.println("value of i == " + i);
-//            ++i;
-//        }
+        while (i <= 10){
+            System.out.println("value of i == " + i);
+            ++i;
+        }
 
         do {
             System.out.println(i);
