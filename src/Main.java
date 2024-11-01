@@ -1,17 +1,17 @@
 //import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
-        double[] Notes = {10, 14.5, 19.25, 9};
-        double Moy;
-        int length = Notes.length;
-        double sum = 0;
-        for(double note : Notes){
-            sum = sum + note;
-        }
-        Moy = sum / length;
-        System.out.println(length);
-        System.out.println(sum);
-        System.out.println(Moy);
+//        double[] Notes = {10, 14.5, 19.25, 9};
+//        double Moy;
+//        int length = Notes.length;
+//        double sum = 0;
+//        for(double note : Notes){
+//            sum = sum + note;
+//        }
+//        Moy = sum / length;
+//        System.out.println(length);
+//        System.out.println(sum);
+//        System.out.println(Moy);
 
 //        int[] numbers = {0,1,2,3,4,5};
 //        String[] cars = {"Volvo", "BMW", "Ford", "Mazda"};
