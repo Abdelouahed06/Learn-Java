@@ -1,4 +1,4 @@
-import java.util.zip.ZipEntry;
+
 
 public class Poo {
 //    static void myMethod(String fname, int age) {
@@ -32,9 +32,14 @@ public class Poo {
         int a = myMethod(5, 9);
         int b = myMethod(4, 6,3);
         double c = myMethod(4.8, 6.9);
+        int d = myMethod(7, 3);
+        int e = myMethod(3, 2,5);
+        double f = myMethod(8.6, 5.4);
 
 
         System.out.println("a = " + a + " - b = " + b + " - c = " + c);
+        System.out.println("d = " + d + " - e = " + e + " - f = " + f);
+
 
     }
 }
