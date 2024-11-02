@@ -13,7 +13,6 @@ public class Poo {
 //            System.out.println("welcome !");
 //        }
 //    }
-
     static int myMethod(int x, int y) {
         return y + x ;
     }
