@@ -1,3 +1,5 @@
+import java.util.zip.ZipEntry;
+
 public class Poo {
 //    static void myMethod(String fname, int age) {
 //        System.out.println("Welcome " + fname + "your age is " + age);
@@ -15,16 +17,24 @@ public class Poo {
     static int myMethod(int x, int y) {
         return y + x ;
     }
+    static double myMethod(double x, double y) {
+        return y + x ;
+    }
+    static int myMethod(int x, int y, int z) {
+        return y + x + z;
+    }
     public static void main(String[] args) {
 //        myMethod("abde",20);
 //        myMethod("ali",42);
 //        myMethod("hhafid",30);
 //        checkAge(14);
 //        checkAge(25);
-        int y = myMethod(5, 9);
-        int z = myMethod(4, 6);
+        int a = myMethod(5, 9);
+        int b = myMethod(4, 6,3);
+        double c = myMethod(4.8, 6.9);
 
-        System.out.println(z + " " + y);
+
+        System.out.println("a = " + a + " - b = " + b + " - c = " + c);
 
     }
 }
